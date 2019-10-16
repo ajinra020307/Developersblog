@@ -1,0 +1,131 @@
+/*Global*/
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size: 100%;
+    margin: 0;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: auto;
+    width: 95%;
+}
+
+/*header*/
+header{
+    background: #152033;
+    color: white;
+    padding: 15px 0 10px 0;
+}
+.web_title{
+    display: flex;
+    font-size: 1.5em;
+    align-items: flex-end;
+}
+#brandimg{
+    width: 40px;
+    padding-right: 10px;
+}
+.header_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top_navigation{
+    display: flex;
+    justify-content: space-between
+}
+.top_navigation a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*main*/
+/*left*/
+.main_content{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.popular_category_nav,.popular_today_nav{
+    display: flex;
+    flex-direction: column;
+}
+.popular_category_nav a, .popular_today_nav a{
+    text-decoration: none;
+    font-size: 22px;
+    padding-top: 15px;
+    color: cornflowerblue;
+}
+.popular_category h2,.popular_today h2{
+    padding-top: 20px;
+}
+/*right*/
+.showcase{
+    font-size: 30px;
+    padding: 100px 0;
+    min-height: 350px;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.showcase button{
+    border: none;
+    color: white;
+    background: #1a73e8;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-top: 12px;
+}
+
+.recommended_posts{
+    padding-top: 20px;
+}
+/*post*/
+.posts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.post{
+    max-width: 400px;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 20px;
+    margin:20px 0;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+.post_img{
+    width: 100%;
+    height: 200px;
+    background:url('../img/post.png');
+    background-size: cover;
+    background-position: center;
+}
+.post_title{
+    margin-bottom: 20px;
+}
+.post_title h2{
+    color: rgba(0,0,0,0.9);
+    font-size: 22px;
+}
+.post_body{
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.8)
+}
+.post_footer{
+    font-size: 18px;
+    color: rgba(0,0,0,0.7);
+    padding-top: 10px;
+}
