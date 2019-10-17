@@ -1,14 +1,24 @@
 
 /*main*/
 /*left*/
+.left_side{
+    border-right: 1px solid rgba(0,0,0,0.1)
+}
 .main_content{
     display: grid;
     grid-template-columns: 20% 80%;
 }
-
+main .container{
+    width: 100%
+}
+.popular_category,.popular_today{
+    background: white;
+    padding: 20px 0 20px 20px;
+}
 .popular_category_nav,.popular_today_nav{
     display: flex;
     flex-direction: column;
+    
 }
 .popular_category_nav a, .popular_today_nav a{
     text-decoration: none;
@@ -16,21 +26,18 @@
     padding-top: 15px;
     color: cornflowerblue;
 }
-.popular_category h2,.popular_today h2{
-    padding-top: 20px;
-}
+
 /*right*/
 .showcase{
     font-size: 30px;
     padding: 100px 0;
-    min-height: 350px;
+    min-height: 450px;
     background: url(../img/cover.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 10px;
     color: white;
 }
 .showcase button{

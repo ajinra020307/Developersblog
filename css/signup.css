@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right,#0f0c29,#302b63,#24243e)
+}
+
+.main_content{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+.main_content form > div{
+    display: flex;
+    flex-direction: column;
+}
+#signup_form{
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+#signup_form h2{
+    margin-bottom: 20px;
+}
+#signup_form input{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0 5px 0;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+#signup_form button{
+    border: none;
+    background: tomato;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+}

@@ -20,7 +20,7 @@ h1,h2,h3,p{
 }
 .container{
     margin: auto;
-    width: 95%;
+    width: 98%;
 }
 
 /*header*/
@@ -48,6 +48,6 @@ header{
 }
 .top_navigation a{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
