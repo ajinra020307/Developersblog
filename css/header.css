@@ -44,7 +44,8 @@ header{
 }
 .top_navigation{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .top_navigation a{
     color: white;

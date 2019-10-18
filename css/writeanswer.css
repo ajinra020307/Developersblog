@@ -1,0 +1,36 @@
+.question{
+    width: 80%;
+    margin:auto;
+    border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+.question_profile img{
+    width: 40px;
+}
+
+.question_profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.question_title{
+    margin: 20px 0;
+    color: rgba(0,0,0,0.8);
+}
+.question_description{
+    font-size: 18px;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 20px;
+}
+.question_images > div{
+    display: flex;
+    margin-top: 20px;
+}
+.question_images img{
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.your_answer{
+    width: 80%;
+    margin:auto
+}
