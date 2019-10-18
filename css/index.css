@@ -28,29 +28,23 @@ main .container{
 }
 
 /*right*/
-.showcase{
-    font-size: 30px;
-    padding: 100px 0;
-    min-height: 450px;
-    background: url(../img/cover.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
+.best_this_week{
+    padding: 0  20px 10px 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 20px;
+    grid-gap: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-.showcase button{
-    border: none;
-    color: white;
-    background: #1a73e8;
-    font-size: 20px;
-    padding: 5px 20px;
-    margin-top: 12px;
+.best_this_week img{
+    width: 100%;
 }
-
 .recommended_posts{
     padding-top: 20px;
+}
+.recommended_posts h2{
+    text-align: center;
+    margin-bottom: 20px;
 }
 /*post*/
 .posts{
