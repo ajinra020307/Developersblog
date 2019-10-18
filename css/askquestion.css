@@ -1,6 +1,7 @@
 body{
-    background: #f2f2f2;
+    background: linear-gradient(to right,#0f0c29,#302b63,#24243e)
 }
+
 /*main*/
 
 .main_content{
@@ -19,7 +20,8 @@ body{
     width: 500px;
     background: white;
     padding:50px 20px;
-    border:1px solid rgba(0,0,0,0.3)
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
 .main_content form label{
     padding-bottom:6px;
