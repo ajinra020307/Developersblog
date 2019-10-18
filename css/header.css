@@ -1,0 +1,53 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-size: 100%;
+    margin: 0;
+    line-height: 1.6;
+}
+h1,h2,h3{
+    font-family: 'Noto Sans KR', serif;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: auto;
+    width: 95%;
+}
+
+/*header*/
+header{
+    background: #152033;
+    color: white;
+    padding: 15px 0 10px 0;
+}
+.web_title{
+    display: flex;
+    font-size: 1.5em;
+    align-items: flex-end;
+}
+#brandimg{
+    width: 40px;
+    padding-right: 10px;
+}
+.header_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top_navigation{
+    display: flex;
+    justify-content: space-between
+}
+.top_navigation a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

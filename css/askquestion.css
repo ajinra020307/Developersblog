@@ -1,0 +1,70 @@
+body{
+    background: #f2f2f2;
+}
+/*main*/
+
+.main_content{
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.verticalflex{
+    display: flex;
+    flex-direction: column;
+}
+.main_content form{
+    width: 500px;
+    background: white;
+    padding:50px 20px;
+    border:1px solid rgba(0,0,0,0.3)
+}
+.main_content form label{
+    padding-bottom:6px;
+    font-size: 18px;
+}
+.main_content form input{
+    font-size: 18px;
+    padding: 7px 0 5px 0;
+    width: 100%;
+}
+.main_content form > div{
+    padding-bottom: 20px;
+}
+.main_content form textarea{
+    font-size: 18px;
+    height: 60px;
+    resize: vertical
+}
+#file_container,.tag_container,.followers_container{
+    
+}
+#upload_button{
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding: 5px 0;
+    width: 100%;
+    background: tomato;
+}
+.file{
+    position: relative;
+}
+#upload_photo input{
+    position: absolute;
+    top: 0;
+    left:0;
+    opacity: 0;
+}
+#submit_button{
+    border: none;
+    border-radius: 10px;
+    background: cornflowerblue;
+    color:white;
+    font-size: 18px;
+    padding: 7px 0;
+    width: 100%;
+}
